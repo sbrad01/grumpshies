@@ -27,6 +27,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <nav className="relative z-20 flex items-center justify-between px-8 py-6 lg:px-16 bg-[#121111">
+          <div className="text-2xl font-black tracking-tighter uppercase italic text-white">
+            Grumpshies<span className="text-purple-500 text-xs">®</span>
+          </div>
+        </nav>
         {children}
       </body>
     </html>
